@@ -5,6 +5,7 @@
 #More complex harmonographs incorporate three or more pendulums or linked pendulums together (for example hanging one pendulum off another), or involve rotary motion #in which one or more pendulums is mounted on gimbals to allow movement in any direction.
 ######################################################################################################################################################################
 
+cat("Harmonograoh\n")
 f1=jitter(sample(c(2,3),1));f2=jitter(sample(c(2,3),1));f3=jitter(sample(c(2,3),1));f4=jitter(sample(c(2,3),1))
 d1=runif(1,0,1e-02);d2=runif(1,0,1e-02);d3=runif(1,0,1e-02);d4=runif(1,0,1e-02)
 p1=runif(1,0,pi);p2=runif(1,0,pi);p3=runif(1,0,pi);p4=runif(1,0,pi)

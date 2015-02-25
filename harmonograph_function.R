@@ -24,7 +24,7 @@ t=seq(1, density, by=.001)
 dat=data.frame(t=t, x=xt(t), y=yt(t))
 
 cat("creating graphs...\n")
-jpeg(file = paste(path,"/harmonograph_", i, ".jpg", sep=""), width=8, height=8, units= "in", res = 1024)
+pdf(file = paste(path,"/harmonograph_", i, ".pdf", sep=""))
 with(dat, plot(x,y, type="l", xlim =c(-2,2), ylim =c(-2,2), xlab = "", ylab = "", xaxt='n', yaxt='n'))
 dev.off()
 }

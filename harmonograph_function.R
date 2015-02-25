@@ -3,12 +3,12 @@ harmonograph <- function(nr = 10, path = "harmonographs", density = 100) {
 
 cat("Plotting harmonograph in ", nr, "repetitions and with a pencil density of", density, "\n")
 
-error
+error   error2
 for (i in 0:nr) {
 
 cat("calculating time parameter f...\n")
 f1=jitter(sample(c(2,3),1));f2=jitter(sample(c(2,3),1));f3=jitter(sample(c(2,3),1));f4=jitter(sample(c(2,3),1))
-cat(" f1 = ", f1, "\n", "f2 = ", f2, "\n", "f3 = ", f3, "\n", "f4 = ", f4, "\n")
+cat(" f1 = ", f1, "\n", "f2 = ",g f2, "\n", "f3 = ", f3, "\n", "f4 = ", f4, "\n")
 
 cat("calculating damping parameter d...\n")
 d1=runif(1,0,1e-02);d2=runif(1,0,1e-02);d3=runif(1,0,1e-02);d4=runif(1,0,1e-02)

@@ -3,7 +3,7 @@ harmonograph <- function(nr = 10, path = "harmonographs", density = 100) {
 
 cat("Plotting harmonograph in ", nr, "repetitions and with a pencil density of", density, "\n")
 
-error   error2
+
 for (i in 0:nr) {
 
 cat("calculating time parameter f...\n")

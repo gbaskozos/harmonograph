@@ -1,4 +1,4 @@
-
+##Harmonograoh Funnction##
 harmonograph <- function(nr = 10, path = "harmonographs", density = 100) {
 
 cat("Plotting harmonograph in ", nr, "repetitions and with a pencil density of", density, "\n")

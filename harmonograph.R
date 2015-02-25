@@ -14,6 +14,7 @@ yt = function(t) exp(-d3*t)*sin(t*f3+p3)+exp(-d4*t)*sin(t*f4+p4)
 t=seq(1, 100, by=.001)
 dat=data.frame(t=t, x=xt(t), y=yt(t))
 
+error
 pdf("harmonograph.pdf")
 with(dat, plot(x,y, type="l", xlim =c(-2,2), ylim =c(-2,2), xlab = "", ylab = "", xaxt='n', yaxt='n'))
 dev.off()

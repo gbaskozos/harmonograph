@@ -18,8 +18,6 @@ cat("calculating phase parameter p...\n")
 p1=runif(1,0,2*pi);p2=runif(1,0,2*pi);p3=runif(1,0,2*pi);p4=runif(1,0,2*pi)
 cat(" p1 = ", p1, "\n", "p2 = ", p2, "\n", "p3 = ", p3, "\n", "p4 = ", p4, "\n" )
 
-change
-
 xt = function(t) exp(-d1*t)*sin(t*f1+p1)+exp(-d2*t)*sin(t*f2+p2)
 yt = function(t) exp(-d3*t)*sin(t*f3+p3)+exp(-d4*t)*sin(t*f4+p4)
 t=seq(1, density, by=.001)
